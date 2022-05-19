@@ -9,23 +9,23 @@ The goal of this work is to provide user-friendly icons for priorities of ticket
 * The color and orientation helps to distinguish low and high priority tickets.
 
 <span>
-<image  height="42" src="https://github.com/AlexanderBartash/JIRA-Priority-Icons/blob/master/Highest.svg"/>
-<image  height="42" src="https://github.com/AlexanderBartash/JIRA-Priority-Icons/blob/master/High.svg"/>
-<image  height="42" src="https://github.com/AlexanderBartash/JIRA-Priority-Icons/blob/master/Medium.svg"/>
-<image  height="42" src="https://github.com/AlexanderBartash/JIRA-Priority-Icons/blob/master/Low.svg"/>
-<image  height="42" src="https://github.com/AlexanderBartash/JIRA-Priority-Icons/blob/master/Lowest.svg"/>
+<image  height="42" src="./Highest.svg"/>
+<image  height="42" src="./High.svg"/>
+<image  height="42" src="./Medium.svg"/>
+<image  height="42" src="./Low.svg"/>
+<image  height="42" src="./Lowest.svg"/>
 </span>
 
 # How can I use it? ┬─┬ ノ( ゜-゜ノ)
 You need to understand that JIRA does not allow to upload these icons into JIRA. You need to host them somewhere else.
 * Fork this reposotiry and **make sure your fork stays public** or your JIRA users won't be able to access the icons. In this case you will avoid future modification of this reposotory affecting your JIRA.
-* Go to https://YOUR_ORG.atlassian.net/secure/admin/ViewPriorities.jspa
-* Click "Edit" on each priority and specify URLs to **PNG** icons:
-    * https://raw.githubusercontent.com/YOUR_GIT_HUB_USER/JIRA-Priority-Icons/master/Highest.png
-    * https://raw.githubusercontent.com/YOUR_GIT_HUB_USER/JIRA-Priority-Icons/master/High.png
-    * https://raw.githubusercontent.com/YOUR_GIT_HUB_USER/JIRA-Priority-Icons/master/Medium.png
-    * https://raw.githubusercontent.com/YOUR_GIT_HUB_USER/JIRA-Priority-Icons/master/Low.png
-    * https://raw.githubusercontent.com/YOUR_GIT_HUB_USER/JIRA-Priority-Icons/master/Lowest.png
+* Go to https://vendorhero.atlassian.net/secure/admin/ViewPriorities.jspa
+* Click "Edit" on each priority and specify URLs to **SVG** icons:
+    * https://raw.githubusercontent.com/Chefhero/JIRA-Priority-Icons/master/Highest.svg
+    * https://raw.githubusercontent.com/Chefhero/JIRA-Priority-Icons/master/High.svg
+    * https://raw.githubusercontent.com/Chefhero/JIRA-Priority-Icons/master/Medium.svg
+    * https://raw.githubusercontent.com/Chefhero/JIRA-Priority-Icons/master/Low.svg
+    * https://raw.githubusercontent.com/Chefhero/JIRA-Priority-Icons/master/Lowest.svg
 
 # Can we take it even further?
 Yes! Add some personality to your JIRA! The default names of the priorities are not better than the icons. Who knows what "Medium" means in context of your orgranization? Here are some suggested changes:
